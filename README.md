@@ -1,5 +1,17 @@
 # Assignment 9
 
+## [Live Site Link](https://bookreview-assignment9-sparrowhawk.netlify.app/)
+
+> About this project:
+
+- This Project is a Book Review Website on 'হাবলুদের জন্য প্রোগ্রামিং'.
+- Got All the info from Rokomari.com
+- This is a practice project on 'React.js' and 'React Routing'
+- Tailwind CSS is used for styling
+- ReCharts is used for Charting
+- Netlify is used for Deployment.
+- Custom Hook is used for fetching data from API.
+
 ## Main Requirements
 
 1. Unique Name✅
@@ -26,7 +38,7 @@
 - What is Semantic tag
 - Difference Inline, Inline Block, Block
 
-5. only show 3 review in home page and see all in review section
+7. only show 3 review in home page and see all button in review section✅
 
 ## Optional
 
