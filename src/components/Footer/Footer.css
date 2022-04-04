@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #2b2424;
+  background-color: rgb(240 82 66);
   position: fixed;
   bottom: 0;
   left: 0;
@@ -19,7 +19,7 @@
   text-decoration: none;
   color: #fff;
   font-size: 22px;
-  background-color: rgb(91, 93, 95);
+  background-color: rgb(240 138 76);
   margin-top: 10px;
   padding: 14px;
   border-radius: 100%;
@@ -28,7 +28,7 @@
   margin-bottom: 1rem;
 }
 .link:hover {
-  color: #d63384;
+  color: #fff;
   background-color: transparent;
   transform: scale(1.15);
 }

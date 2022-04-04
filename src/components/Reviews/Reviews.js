@@ -6,7 +6,7 @@ const Reviews = () => {
   const [reviews] = useReviews()
   console.log(reviews);
   return (
-    <div className='mb-32 mt-10'>
+    <div className='mb-32 '>
       {reviews.map(review => <Review review={review} key={review.id}></Review>)}
     </div>
   );

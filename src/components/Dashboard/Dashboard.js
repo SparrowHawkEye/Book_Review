@@ -24,7 +24,7 @@ const Dashboard = () => {
       {/* <h1> This is Dashboard to show React Recharts {datas.length}</h1> */}
       {/* Line Chart */}
       <div className="mx-auto p-4 mb-4 border rounded-sm">
-      <h1>Line Chart</h1>
+      <h1 className="text-3xl font-semibold">Line Chart</h1>
       <LineChart
         width={600}
         height={300}
@@ -41,7 +41,7 @@ const Dashboard = () => {
       </div>
       {/* Pie chart */}
       <div className="mx-auto p-4 mb-4  border rounded-sm">
-      <h1>Pie Chart</h1>
+      <h1 className="text-3xl font-semibold">Pie Chart</h1>
       <PieChart width={600} height={300}>
         <Pie
           data={datas}
@@ -51,7 +51,6 @@ const Dashboard = () => {
           cy="50%"
           outerRadius={50}
           fill="#8884d8"
-          label
         />
         <Pie
           data={datas}
@@ -72,13 +71,14 @@ const Dashboard = () => {
           innerRadius={80}
           outerRadius={100}
           fill="#333dae"
+          label
         />
         <Tooltip />
       </PieChart>
       </div>
       {/* Area Chart */}
       <div className="mx-auto p-4 mb-4  border rounded-sm">
-      <h1>Area Chart</h1>
+      <h1 className="text-3xl font-semibold">Area Chart</h1>
       <AreaChart
         width={600}
         height={300}
@@ -116,7 +116,7 @@ const Dashboard = () => {
       </AreaChart>
       </div>
       <div className="mx-auto p-4 mb-4  border rounded-sm">
-      <h1>Scatter Chart</h1>
+      <h1 className="text-3xl font-semibold">Scatter Chart</h1>
       <ScatterChart
         width={600}
         height={300}
