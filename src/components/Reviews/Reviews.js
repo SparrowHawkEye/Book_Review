@@ -3,7 +3,7 @@ import useReviews from '../../Hooks/useReview';
 import Review from '../Review/Review';
 
 const Reviews = () => {
-  const [reviews,setReviews] = useReviews()
+  const [reviews] = useReviews()
   console.log(reviews);
   return (
     <div className='mb-32 mt-10'>
