@@ -9,7 +9,7 @@ const Home = () => {
   console.log(homeReview);
   return (
     <div className="mb-44">
-      <div className="mb-5 w-[90%] lg:w-[75%] mx-auto flex flex-col md:flex-row justify-center items-center gap-32">
+      <div className="mb-10 w-[90%] lg:w-[75%] mx-auto flex flex-col md:flex-row justify-center items-center gap-32">
         <div className="text-left order-2 md:order-1">
           <h1 className="text-4xl leading-relaxed font-bold text-red-500">হাবলুদের জন্য প্রোগ্রামিং</h1>
           <h1 className="text-4xl leading-relaxed font-bold text-orange-400 mb-2">"হাবলুগিরি দিয়েই চাল্লুদের পিছনে ফেলে দেয়ার দৃঢ় প্রত্যয়ে"</h1>
@@ -27,6 +27,7 @@ const Home = () => {
         <img className="bg-red-500 p-6 shadow-lg shadow-orange-400 order-1 md:order-2" src="image1.jpg" alt="" />
         
         </div>
+        <h1 className="text-2xl my-5 w-[65%] mx-auto border-y-4 leading-relaxed font-bold text-red-500">Customer's Review</h1>
       {homeReview.map((review) => (
         <Review review={review} key={review.id}></Review>
       ))}
