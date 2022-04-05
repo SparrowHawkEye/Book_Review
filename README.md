@@ -42,8 +42,8 @@
 
 ## Optional
 
-1. conditional rendering
-2. active route optional
-3. responsive design and hamburger menu
+1. conditional rendering ✅
+2. active route optional ✅
+3. responsive design and hamburger menu ✅
 
 ## [Chart Data Link](https://raw.githubusercontent.com/ProgrammingHero1/product-analysis-website/main/data.json)

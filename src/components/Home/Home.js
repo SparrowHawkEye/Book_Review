@@ -6,7 +6,6 @@ import Review from "../Review/Review";
 const Home = () => {
   const [reviews] = useReviews();
   const homeReview = reviews.slice(0, 3);
-  console.log(homeReview);
   return (
     <div className="mb-44">
       <div className="mb-10 w-[90%] lg:w-[75%] mx-auto flex flex-col md:flex-row justify-center items-center gap-32">
