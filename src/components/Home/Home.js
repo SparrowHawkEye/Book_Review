@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import useReviews from "../../Hooks/useReview";
 import Review from "../Review/Review";
+import image1 from '../../asset/image1.jpg';
 
 const Home = () => {
   const [reviews] = useReviews();
@@ -23,7 +24,7 @@ const Home = () => {
           </p>
         </div>
         
-        <img className="bg-red-500 p-6 shadow-lg shadow-orange-400 order-1 md:order-2" src="image1.jpg" alt="" />
+        <img className="bg-red-500 p-6 shadow-lg shadow-orange-400 order-1 md:order-2" src={image1} alt="" />
         
         </div>
         <h1 className="text-2xl my-5 w-[65%] mx-auto border-y-4 leading-relaxed font-bold text-red-500">Customer's Review</h1>

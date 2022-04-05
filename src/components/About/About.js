@@ -1,4 +1,5 @@
 import React from "react";
+import Maksud from '../../asset/Maksud.jpg'
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
           <div className="p-4 md:p-12 text-center lg:text-left">
             <div
               className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
-              style={{backgroundImage: "url('Maksud.jpg')"}}
+              style={{backgroundImage: `url(${Maksud})`}}
             ></div>
 
             <h1 className="text-3xl font-bold pt-8 lg:pt-0">Maksudur Rahman</h1>
@@ -53,7 +54,7 @@ const About = () => {
         </div>
         <div className="w-full lg:w-2/5">
           <img
-            src="Maksud.jpg"
+            src={Maksud}
             className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt=""
           />
         </div>
